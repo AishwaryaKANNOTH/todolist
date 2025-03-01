@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6F4E37; /* Coffee Brown */
+    color: #FFF8E7; /* Light Cream */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 248, 231, 0.2); /* Semi-transparent cream */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.quote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #FFD700; /* Golden tone */
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #FFF8E7;
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #8B5E3C; /* Darker coffee shade */
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #A67B5B; /* Lighter coffee shade */
+}
+
+.filters {
+    margin: 10px 0;
+}
+
+.filter-btn {
+    padding: 5px 10px;
+    border: none;
+    background: #A67B5B;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filter-btn.active {
+    background: #FFD700;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px 0;
+    background: #FFF8E7;
+    color: black;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
